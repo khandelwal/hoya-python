@@ -1,3 +1,6 @@
+# This uses BioPython, and is a good check to ensure that you have installed
+# Enthought's Canopy correctly.
+
 from Bio.Seq import Seq
 
 if __name__ == '__main__':
@@ -8,5 +11,3 @@ if __name__ == '__main__':
 
     print "And here is it's complement: "
     print sequence.complement()
-
-
